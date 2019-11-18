@@ -1,0 +1,134 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+
+      background-color: #f8f8f8;}
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  .right-side{
+      display:flex;
+      position: right top;
+    
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+   
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+    width: 100%;
+  }
+  
+  .profile-content-wrapper {
+    padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+    color: rgb(243, 147, 147);
+  }
+ 
+    .info{
+      position relative;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+      td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;}
+        table.one {
+        border-spacing: 5px 15px;}
+        table.two {
+        border-collapse: collapse;}
+    }
+  }
+    
+    .form {
+      width: 350px;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: right;}
+      .legend {
+      background-color: #efefef;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      padding: 10px 20px;
+      text-align: left;
+      text-transform: uppercase;}
+      }
+      
+      .education
+      {
+        text-align: right;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #665544;
+      }
+        .blockquote {
+          float: right;
+          width: 275px;
+          font-size: 130%;
+          font-style: italic;
+          font-family: Georgia, Times, serif;
+          margin: 0px 0px 10px 10px;
+          padding: 10px;
+          border-top: 1px solid #665544;
+          border-bottom: 1px solid #665544;}
+      }
+      footer{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text align-self: additive-symbols: align-self: ;
+      weight:10px;
+      }
